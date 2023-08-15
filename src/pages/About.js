@@ -11,14 +11,15 @@ function About() {
       <div className="about__left">
         <img src={avatar} alt="" />
         <h2 className="about__left-name">Артименя Кирилл</h2>
-        <p className="about__left-info">Возрост: 21 год</p>
+        <p className="about__left-info">Возрост: 23 год</p>
         <p className="about__left-info">Место жительства : Минск</p>
 
         <h2 className="about__left-title">Коротко обо мне</h2>
         <p className="about__left-text">
           Увлеченный и целеустремленный разработчик. Постоянно улучшаю свои навыки во всех областях,
-          начиная с разработки и заканчивая повседневными делами.Заканчивал курсы
-          Frontend-разработчика в BelHard. Занимаюсь баскетболом, читаю книги, люблю рок.
+          начиная с разработки и заканчивая повседневными делами. Заканчивал курсы
+          Frontend-разработчика в BelHard. Какое-то время работал фрилансером. Занимаюсь
+          баскетболом, читаю книги, люблю рок.
         </p>
       </div>
       <div className="about__right">

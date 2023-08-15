@@ -19,7 +19,13 @@ function Projects() {
       <h2 className="projects__title">Мои работы</h2>
       <div className="card-list">
         {progectArr.map((item) => (
-          <Card key={item.id} id={item.id} src={item.src} onClickMore={openModal} />
+          <Card
+            key={item.id}
+            id={item.id}
+            src={item.src}
+            onClickMore={openModal}
+            type={item.type}
+          />
         ))}
       </div>
       <Modal modalActive={modalActive} setModalActive={setModalActive}>
