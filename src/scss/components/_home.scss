@@ -1,7 +1,11 @@
-.br-color{
-  background: #009FFF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.br-color {
+  background: #009fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec2f4b, #009fff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ec2f4b,
+    #009fff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   top: 0;
   left: 0;
@@ -13,26 +17,26 @@
   justify-content: center;
 }
 
-.avatar-img{
+.avatar-img {
   height: 250px;
   display: block;
 }
 
-.banner-text{
+.banner-text {
   background: #000;
-  opacity: .8;
+  opacity: 0.8;
   width: 75%;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
   margin-top: 10px;
 }
-.banner-text h1{
+.banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: #fff;
   text-align: center;
-  &::after{
+  &::after {
     content: '';
     width: 50%;
     display: block;
@@ -42,10 +46,10 @@
   }
 }
 @media (max-width: 930px) {
-    .banner-text h1{
-      font-size: 40px;
-    }
+  .banner-text h1 {
+    font-size: 40px;
+  }
 }
-.banner-text p{
+.banner-text p {
   color: #fff;
 }

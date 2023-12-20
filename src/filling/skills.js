@@ -12,7 +12,15 @@ export default [
     info: 'На хорошем уровне знаю React | Hooks. Работаю с Redux, Redux-Toolkit (Thunks). Все в связке с TypeScript. Знаком с основными UI библиотеками (Ant Design, React Bootstrap). Также работаю с react-router-dom, axios',
   },
   {
+    name: 'PHP',
+    info: 'ООП, ссылки, Type-hinting, copy-on-write и так далее. ',
+  },
+  {
     name: 'Прочие навыки',
     info: 'Умею работать с системой контроля версий git. Для верстки использую сборщик Gulp.',
+  },
+  {
+    name: 'Laravel',
+    info: 'Весь основной функционал (controllers, models, middleware и т.д)',
   },
 ];
